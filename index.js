@@ -1,9 +1,9 @@
-const http = require("http")
+const http = require("https")
 const socket = require("websocket").server
 const server = http.createServer(() => {
 })
 
-server.listen(80, () => {
+server.listen(443, () => {
 
 })
 
