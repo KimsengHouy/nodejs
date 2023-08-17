@@ -3,7 +3,7 @@ const socket = require("websocket").server
 const server = http.createServer(() => {
 })
 
-server.listen(443, () => {
+server.listen(80, () => {
 
 })
 
